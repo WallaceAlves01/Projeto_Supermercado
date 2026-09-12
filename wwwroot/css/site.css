@@ -1,0 +1,26 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("https://img.magnific.com/vetores-gratis/plano-de-fundo-da-area-de-trabalho-moderno-vetor-de-desenho-geometrico-azul_53876-135923.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size:cover;
+    background-repeat:no-repeat;
+    color: azure;
+}
